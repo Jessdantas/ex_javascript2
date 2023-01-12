@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação Javascript</title>
+    <style>
+        body {font: 12 Arial;}
+        button {font-size: 12;
+                padding: 30px;}
+    </style>
+</head>
+<body>
+    
+    <!-- <h1>Olá turma</h1>
+    <h3> Bem-vindo ao 2023</h3> -->
+
+    
+    <!-- <script>
+        window.alert('Olá Mundo!')
+    </script> -->
+
+    <!-- <button onclick="clicou()"> Clica em mim! </button>
+
+    <script>
+        function clicou() {
+            window.alert('Você clicouno botão!')
+        }
+    </script> -->
+
+    <!-- <h1>Trabalho com dados</h1>
+
+    <button onclick="cabra()">Clique para começar </button> -->
+
+    <!-- <script>
+        function cabra(){
+            let nome = window.prompt('Qual é o seu nome, jovem? ')
+            window.alert(`Olá, ${nome} É um prazer conhecer` )
+        }
+    </script> -->
+
+    <!-- <h1>Trabalho com dados</h1>
+    <button onclick="onofre()">Clique para começar </button>
+    <section id="resultado">
+        <p>Aqui vai aparecer o resultado...</p>
+    </section>
+
+    <script>
+        function onofre(){
+            let nome = window.prompt('Qual é o seu nome?')
+            let res = window.document.getElementById(`resultado`)
+
+            res.innerHTML = `<p>Olá, <strong>${nome}</strong>. É um gradne prazer conhecê-lo(a)</p>`
+        }
+    </script> -->
+
+    <h1>Trabalho com dados</h1>
+    <button onclick="calcular()">Clique aqui para começar </button>
+    <section id="res">
+        <p>Aqui vai aparecer o resultado...</p>
+    </section>
+    
+
+    <script>
+
+        window.alert('Seja bem-vindo(a) ao meu site!')
+
+        function calcular(){
+            let n1 = Number(window.prompt('Digite um número'))
+            let res = document.querySelector('section#res')
+
+            res.innerHTML = `<p> O dobro de ${n1} é ${n1 * 2}, o triplo de ${n1} é ${n1 * 3} e a metade é de ${n1} é ${n1 / 2}, </p>`
+        }
+    </script>
+
+</body>
+</html>
